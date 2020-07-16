@@ -16,6 +16,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.88rem;
   color: #fff;
+  box-shadow: 2px 2px 2px 2px #000000;
 }
  
 h1 .highlight {
@@ -34,7 +35,7 @@ h2 {
  
 .App {
   height: 100%;
-  padding: 0 17% 10% 17%;
+  padding: 0 12% 10% 12%;
   background-color: grey;
   background-size: cover;
   background-position: center;

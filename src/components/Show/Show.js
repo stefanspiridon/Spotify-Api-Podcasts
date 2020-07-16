@@ -11,6 +11,7 @@ class Show extends React.Component {
     return (
       <div className="Show">
         <div className="Show-information">
+          <img className="Show-image" width={this.props.show.image.width} height={this.props.show.image.height} src={this.props.show.image.url}/>
           <h3>{this.props.show.name}</h3>
             <p>
               {this.props.show.description}

@@ -23,7 +23,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 180px;
   }
    
   .Show-information h3 {
@@ -38,4 +37,8 @@
    
   .Show-information iframe {
     margin: 0.75rem;
+  }
+
+  .Show-image {
+    padding-top: 4%;
   }

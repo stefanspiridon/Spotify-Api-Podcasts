@@ -40,6 +40,7 @@ const Spotify = {
           id: show.id,
           name: show.name,
           description: show.description,
+          image: show.images[2],
           uri: show.uri
         }));
       });

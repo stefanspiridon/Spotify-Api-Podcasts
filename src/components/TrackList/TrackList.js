@@ -12,7 +12,6 @@ class TrackList extends React.Component {
           return (
             <Track
               show={show}
-              //key={show.id}
             />
           );
         })}

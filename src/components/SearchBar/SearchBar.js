@@ -33,7 +33,7 @@ class SearchBar extends React.Component {
     return (
       <div className="SearchBar">
         <input
-          placeholder="Enter song, album or artist"
+          placeholder="Enter show"
           onChange={this.handleTermChange}
           onKeyUp={this.handleEnter}
         />

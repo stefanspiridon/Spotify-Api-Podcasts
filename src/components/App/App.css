@@ -2,6 +2,7 @@ body,
 html,
 #root {
   height: 100%;
+  background-color:grey;
 }
  
 html {
@@ -10,7 +11,7 @@ html {
  
 h1 {
   padding: 0.77rem 0;
-  background-color: #b16d22;
+  background-color: darkgray;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 1.88rem;
@@ -34,7 +35,7 @@ h2 {
 .App {
   height: 100%;
   padding: 0 17% 10% 17%;
-  background-color: aquamarine;
+  background-color: grey;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

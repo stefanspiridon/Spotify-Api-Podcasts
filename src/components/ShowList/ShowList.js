@@ -1,16 +1,16 @@
 import React from "react";
  
-import "./TrackList.css";
+import "./ShowList.css";
  
-import Track from "../Track/Track";
+import Show from "../Show/Show";
  
-class TrackList extends React.Component {
+class ShowList extends React.Component {
   render() {
     return (
-      <div className="TrackList">
+      <div className="ShowList">
         {this.props.shows.map(show => {
           return (
-            <Track
+            <Show
               show={show}
             />
           );
@@ -20,4 +20,4 @@ class TrackList extends React.Component {
   }
 }
  
-export default TrackList;
+export default ShowList;

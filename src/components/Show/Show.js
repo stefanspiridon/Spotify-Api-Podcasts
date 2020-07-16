@@ -1,16 +1,16 @@
 import React from "react";
  
-import "./Track.css";
+import "./Show.css";
  
-class Track extends React.Component {
+class Show extends React.Component {
   constructor(props) {
     super(props);
   }
  
   render() {
     return (
-      <div className="Track">
-        <div className="Track-information">
+      <div className="Show">
+        <div className="Show-information">
           <h3>{this.props.show.name}</h3>
             <p>
               {this.props.show.description}
@@ -21,4 +21,4 @@ class Track extends React.Component {
   }
 }
  
-export default Track;
+export default Show;
